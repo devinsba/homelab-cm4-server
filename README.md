@@ -2,8 +2,11 @@
 
 ## feature goals
 
+### version 1
+
 - gigabit ethernet
 - tpm
-- pcie switch
-  - m.2 ssd
-  - m.2 for coral ai TPU https://coral.ai/products/#production-products
+- m.2 ssd
+- micro-sd for cm4lite
+- raspbian+k3s image with tpm support
+- ansible playbook for configuring k3s leader/worker nodes
